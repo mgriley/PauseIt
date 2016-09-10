@@ -46,18 +46,18 @@
 -(void) toggleActive {
     if (isOn) {
         isOn = NO;
-        // TODO
+        // TODO start listening
         self.toggleBtn.title = @"Turn Off";
     } else {
         isOn = YES;
-        // TODO
+        // TODO stop listening
         self.toggleBtn.title = @"Turn On";
     }
 }
 
 - (IBAction) nameChanged:(id)sender {
     userName = self.nameTextField.stringValue;
-    // TODO
+    // TODO change the name
 }
 
 @end
