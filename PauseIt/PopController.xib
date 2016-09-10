@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PopController">
+            <connections>
+                <outlet property="appleBtn" destination="KD8-Mn-twr" id="VmO-Je-5rP"/>
+                <outlet property="nameTextField" destination="rvT-3M-iyr" id="wQW-wh-Tun"/>
+                <outlet property="spotifyBtn" destination="jdp-hI-IdQ" id="lOo-Do-JtF"/>
+                <outlet property="toggleBtn" destination="eDw-Xw-tnj" id="QgO-Tr-y9Z"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView focusRingType="none" distribution="fill" orientation="vertical" alignment="centerX" spacing="5" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" misplaced="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOy-sJ-84X">
+                    <rect key="frame" x="0.0" y="-1" width="100" height="201"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDw-Xw-tnj">
+                            <rect key="frame" x="5" y="168" width="91" height="32"/>
+                            <buttonCell key="cell" type="push" title="Turn Off" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="FK8-ZE-kmS">
+                                <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <button translatesAutoresizingMaskIntoConstraints="NO" id="jdp-hI-IdQ">
+                            <rect key="frame" x="0.0" y="101" width="100" height="69"/>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="spotify_icon" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ABM-ZP-gpg">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <button translatesAutoresizingMaskIntoConstraints="NO" id="KD8-Mn-twr">
+                            <rect key="frame" x="0.0" y="27" width="100" height="69"/>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="iTunes" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="GtO-hH-vRi">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                        </button>
+                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rvT-3M-iyr">
+                            <rect key="frame" x="3" y="5" width="94" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="center" placeholderString="your name" id="bcT-17-5Ic">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <connections>
+                                <action selector="nameChanged:" target="-2" id="DzR-4D-pOJ"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <edgeInsets key="edgeInsets" left="0.0" right="0.0" top="5" bottom="5"/>
+                    <constraints>
+                        <constraint firstItem="KD8-Mn-twr" firstAttribute="centerX" secondItem="jdp-hI-IdQ" secondAttribute="centerX" id="2Pu-ZJ-gVv"/>
+                        <constraint firstItem="jdp-hI-IdQ" firstAttribute="centerX" secondItem="eDw-Xw-tnj" secondAttribute="centerX" id="Qne-lw-RXp"/>
+                        <constraint firstItem="rvT-3M-iyr" firstAttribute="leading" secondItem="NOy-sJ-84X" secondAttribute="leading" constant="5" id="Qxl-xP-FaV"/>
+                        <constraint firstItem="jdp-hI-IdQ" firstAttribute="height" secondItem="KD8-Mn-twr" secondAttribute="height" id="Z7Q-GI-d1i"/>
+                        <constraint firstItem="jdp-hI-IdQ" firstAttribute="width" secondItem="KD8-Mn-twr" secondAttribute="width" id="xuc-B1-bLO"/>
+                    </constraints>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="NOy-sJ-84X" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="Sry-NM-2Z0"/>
+                <constraint firstItem="NOy-sJ-84X" firstAttribute="height" secondItem="Hz6-mo-xeY" secondAttribute="height" id="UDH-4s-wrr"/>
+                <constraint firstItem="jdp-hI-IdQ" firstAttribute="width" secondItem="Hz6-mo-xeY" secondAttribute="width" id="gbC-8b-H93"/>
+                <constraint firstItem="NOy-sJ-84X" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="y1f-t6-s53"/>
+            </constraints>
+            <point key="canvasLocation" x="102" y="404.5"/>
+        </customView>
+        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="hgH-Dp-Pw8">
+            <rect key="frame" x="0.0" y="0.0" width="38" height="17"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="TGv-OV-0y8">
+                <font key="font" metaFont="system"/>
+                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+            </textFieldCell>
+        </textField>
+        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="DwH-tx-qNF">
+            <rect key="frame" x="0.0" y="0.0" width="38" height="17"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Mfq-Hx-IOg">
+                <font key="font" metaFont="system"/>
+                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+            </textFieldCell>
+        </textField>
+    </objects>
+    <resources>
+        <image name="iTunes" width="512" height="512"/>
+        <image name="spotify_icon" width="512" height="512"/>
+    </resources>
+</document>

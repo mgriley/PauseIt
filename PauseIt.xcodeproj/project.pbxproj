@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C99AB8C01D8477DE00EC13BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8BF1D8477DE00EC13BB /* AppDelegate.m */; };
 		C99AB8C31D8477DE00EC13BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8C21D8477DE00EC13BB /* main.m */; };
-		C99AB8C61D8477DE00EC13BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8C51D8477DE00EC13BB /* ViewController.m */; };
 		C99AB8C81D8477DE00EC13BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8C71D8477DE00EC13BB /* Assets.xcassets */; };
 		C99AB8CB1D8477DE00EC13BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8C91D8477DE00EC13BB /* Main.storyboard */; };
 		C99AB8D61D8477DE00EC13BB /* PauseItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8D51D8477DE00EC13BB /* PauseItTests.m */; };
 		C99AB8E11D8477DE00EC13BB /* PauseItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8E01D8477DE00EC13BB /* PauseItUITests.m */; };
+		C99AB8F01D84780100EC13BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8EF1D84780100EC13BB /* AppDelegate.m */; };
+		C99AB8F41D84781500EC13BB /* PopController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8F21D84781500EC13BB /* PopController.m */; };
+		C99AB8F51D84781500EC13BB /* PopController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8F31D84781500EC13BB /* PopController.xib */; };
+		C99AB8F71D84860100EC13BB /* Spotify_Logo_RGB_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8F61D84860100EC13BB /* Spotify_Logo_RGB_Green.png */; };
+		C99AB8F91D84878200EC13BB /* iTunes.png in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8F81D84878200EC13BB /* iTunes.png */; };
+		C99AB8FB1D8487CB00EC13BB /* spotify_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8FA1D8487CB00EC13BB /* spotify_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,7 @@
 
 /* Begin PBXFileReference section */
 		C99AB8BB1D8477DE00EC13BB /* PauseIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PauseIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99AB8BE1D8477DE00EC13BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C99AB8BF1D8477DE00EC13BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C99AB8C21D8477DE00EC13BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C99AB8C41D8477DE00EC13BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C99AB8C51D8477DE00EC13BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C99AB8C71D8477DE00EC13BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99AB8CA1D8477DE00EC13BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C99AB8CC1D8477DE00EC13BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,14 @@
 		C99AB8DC1D8477DE00EC13BB /* PauseItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PauseItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99AB8E01D8477DE00EC13BB /* PauseItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PauseItUITests.m; sourceTree = "<group>"; };
 		C99AB8E21D8477DE00EC13BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99AB8EE1D84780100EC13BB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C99AB8EF1D84780100EC13BB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C99AB8F11D84781500EC13BB /* PopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopController.h; sourceTree = "<group>"; };
+		C99AB8F21D84781500EC13BB /* PopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopController.m; sourceTree = "<group>"; };
+		C99AB8F31D84781500EC13BB /* PopController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopController.xib; sourceTree = "<group>"; };
+		C99AB8F61D84860100EC13BB /* Spotify_Logo_RGB_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_RGB_Green.png; sourceTree = "<group>"; };
+		C99AB8F81D84878200EC13BB /* iTunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunes.png; sourceTree = "<group>"; };
+		C99AB8FA1D8487CB00EC13BB /* spotify_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotify_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +107,15 @@
 		C99AB8BD1D8477DE00EC13BB /* PauseIt */ = {
 			isa = PBXGroup;
 			children = (
-				C99AB8BE1D8477DE00EC13BB /* AppDelegate.h */,
-				C99AB8BF1D8477DE00EC13BB /* AppDelegate.m */,
-				C99AB8C41D8477DE00EC13BB /* ViewController.h */,
-				C99AB8C51D8477DE00EC13BB /* ViewController.m */,
+				C99AB8F61D84860100EC13BB /* Spotify_Logo_RGB_Green.png */,
+				C99AB8EE1D84780100EC13BB /* AppDelegate.h */,
+				C99AB8EF1D84780100EC13BB /* AppDelegate.m */,
+				C99AB8F11D84781500EC13BB /* PopController.h */,
+				C99AB8F21D84781500EC13BB /* PopController.m */,
+				C99AB8F31D84781500EC13BB /* PopController.xib */,
 				C99AB8C71D8477DE00EC13BB /* Assets.xcassets */,
+				C99AB8F81D84878200EC13BB /* iTunes.png */,
+				C99AB8FA1D8487CB00EC13BB /* spotify_icon.png */,
 				C99AB8C91D8477DE00EC13BB /* Main.storyboard */,
 				C99AB8CC1D8477DE00EC13BB /* Info.plist */,
 				C99AB8C11D8477DE00EC13BB /* Supporting Files */,
@@ -241,7 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99AB8C81D8477DE00EC13BB /* Assets.xcassets in Resources */,
+				C99AB8F71D84860100EC13BB /* Spotify_Logo_RGB_Green.png in Resources */,
 				C99AB8CB1D8477DE00EC13BB /* Main.storyboard in Resources */,
+				C99AB8FB1D8487CB00EC13BB /* spotify_icon.png in Resources */,
+				C99AB8F51D84781500EC13BB /* PopController.xib in Resources */,
+				C99AB8F91D84878200EC13BB /* iTunes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99AB8C61D8477DE00EC13BB /* ViewController.m in Sources */,
+				C99AB8F01D84780100EC13BB /* AppDelegate.m in Sources */,
 				C99AB8C31D8477DE00EC13BB /* main.m in Sources */,
-				C99AB8C01D8477DE00EC13BB /* AppDelegate.m in Sources */,
+				C99AB8F41D84781500EC13BB /* PopController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
