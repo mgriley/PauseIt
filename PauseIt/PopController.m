@@ -44,7 +44,7 @@
     [recog setCommands:arr];
     
     // set the strings
-    stopSpotifyScript = @"tell application \"iTunes\" to pause";
+    stopAppleScript = @"tell application \"iTunes\" to pause";
     stopSpotifyScript = @"tell application \"Spotify\" to pause";
     
     // TODO: load defaults
