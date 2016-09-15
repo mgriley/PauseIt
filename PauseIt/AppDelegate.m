@@ -23,7 +23,8 @@
     
     // setup the status item
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    statusItem.button.title = @"Pause";
+//    statusItem.button.title = @"";
+    statusItem.button.image = [NSImage imageNamed:@"pause_logo_v4.png"];
     statusItem.button.action = @selector(showPopup);
     statusItem.button.target = self;
     

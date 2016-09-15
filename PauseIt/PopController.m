@@ -10,7 +10,6 @@
 @import AppKit;
 
 @interface PopController () <NSSpeechRecognizerDelegate> {
-    BOOL isOn;
     NSString* userName;
     NSSpeechRecognizer* recog;
     NSString* stopSpotifyScript;
@@ -40,17 +39,16 @@
     [recog setListensInForegroundOnly:NO];
     [recog setBlocksOtherRecognizers:YES];
     //NSString* placeholder = self.nameTextField.placeholderString;
-    NSArray* arr = @[@"Max"];
+    NSArray* arr = @[@"testing"];
     [recog setCommands:arr];
+    [recog startListening];
     
     // set the strings
-    stopSpotifyScript = @"tell application \"iTunes\" to pause";
+    stopAppleScript = @"tell application \"iTunes\" to pause";
     stopSpotifyScript = @"tell application \"Spotify\" to pause";
     
     // TODO: load defaults
     // for now, start with ON and Spotify
-    isOn = YES;
-    [self turnOn];
     [self selectSpotify];
 }
 
@@ -67,26 +65,8 @@
 }
 
 -(void) toggleActive {
-    if (isOn) {
-        isOn = NO;
-        self.toggleBtn.title = @"Turn Off";
-        [self turnOn];
-    } else {
-        isOn = YES;
-        // TODO stop listening
-        self.toggleBtn.title = @"Turn On";
-        [self turnOff];
-    }
-}
-
--(void) turnOn {
-    NSLog(@"start listening");
-    [recog startListening];
-}
-
--(void) turnOff {
-    NSLog(@"stop listening");
-    [recog stopListening];
+    // Close the app
+    [NSApp terminate:nil];
 }
 
 - (IBAction) nameChanged:(id)sender {

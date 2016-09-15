@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C97998201D84CB6600CD3AA9 /* pause_logo_v3.png in Resources */ = {isa = PBXBuildFile; fileRef = C979981F1D84CB6600CD3AA9 /* pause_logo_v3.png */; };
+		C97998221D84CBEA00CD3AA9 /* pause_logo_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = C97998211D84CBEA00CD3AA9 /* pause_logo_v2.png */; };
+		C97998241D84CE5300CD3AA9 /* pause_logo_v4.png in Resources */ = {isa = PBXBuildFile; fileRef = C97998231D84CE5300CD3AA9 /* pause_logo_v4.png */; };
 		C99AB8C31D8477DE00EC13BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8C21D8477DE00EC13BB /* main.m */; };
 		C99AB8C81D8477DE00EC13BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8C71D8477DE00EC13BB /* Assets.xcassets */; };
 		C99AB8CB1D8477DE00EC13BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8C91D8477DE00EC13BB /* Main.storyboard */; };
@@ -18,7 +21,6 @@
 		C99AB8F71D84860100EC13BB /* Spotify_Logo_RGB_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8F61D84860100EC13BB /* Spotify_Logo_RGB_Green.png */; };
 		C99AB8F91D84878200EC13BB /* iTunes.png in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8F81D84878200EC13BB /* iTunes.png */; };
 		C99AB8FB1D8487CB00EC13BB /* spotify_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C99AB8FA1D8487CB00EC13BB /* spotify_icon.png */; };
-		C99AB8FE1D849FD400EC13BB /* NSObject+newListener.m in Sources */ = {isa = PBXBuildFile; fileRef = C99AB8FD1D849FD400EC13BB /* NSObject+newListener.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C979981F1D84CB6600CD3AA9 /* pause_logo_v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_logo_v3.png; sourceTree = "<group>"; };
+		C97998211D84CBEA00CD3AA9 /* pause_logo_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_logo_v2.png; sourceTree = "<group>"; };
+		C97998231D84CE5300CD3AA9 /* pause_logo_v4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_logo_v4.png; sourceTree = "<group>"; };
 		C99AB8BB1D8477DE00EC13BB /* PauseIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PauseIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99AB8C21D8477DE00EC13BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C99AB8C71D8477DE00EC13BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,8 +63,6 @@
 		C99AB8F61D84860100EC13BB /* Spotify_Logo_RGB_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spotify_Logo_RGB_Green.png; sourceTree = "<group>"; };
 		C99AB8F81D84878200EC13BB /* iTunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunes.png; sourceTree = "<group>"; };
 		C99AB8FA1D8487CB00EC13BB /* spotify_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotify_icon.png; sourceTree = "<group>"; };
-		C99AB8FC1D849FD400EC13BB /* NSObject+newListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+newListener.h"; sourceTree = "<group>"; };
-		C99AB8FD1D849FD400EC13BB /* NSObject+newListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+newListener.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +113,9 @@
 		C99AB8BD1D8477DE00EC13BB /* PauseIt */ = {
 			isa = PBXGroup;
 			children = (
-				C99AB8FC1D849FD400EC13BB /* NSObject+newListener.h */,
-				C99AB8FD1D849FD400EC13BB /* NSObject+newListener.m */,
+				C979981F1D84CB6600CD3AA9 /* pause_logo_v3.png */,
+				C97998211D84CBEA00CD3AA9 /* pause_logo_v2.png */,
+				C97998231D84CE5300CD3AA9 /* pause_logo_v4.png */,
 				C99AB8F61D84860100EC13BB /* Spotify_Logo_RGB_Green.png */,
 				C99AB8EE1D84780100EC13BB /* AppDelegate.h */,
 				C99AB8EF1D84780100EC13BB /* AppDelegate.m */,
@@ -257,8 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97998241D84CE5300CD3AA9 /* pause_logo_v4.png in Resources */,
 				C99AB8C81D8477DE00EC13BB /* Assets.xcassets in Resources */,
+				C97998221D84CBEA00CD3AA9 /* pause_logo_v2.png in Resources */,
 				C99AB8F71D84860100EC13BB /* Spotify_Logo_RGB_Green.png in Resources */,
+				C97998201D84CB6600CD3AA9 /* pause_logo_v3.png in Resources */,
 				C99AB8CB1D8477DE00EC13BB /* Main.storyboard in Resources */,
 				C99AB8FB1D8487CB00EC13BB /* spotify_icon.png in Resources */,
 				C99AB8F51D84781500EC13BB /* PopController.xib in Resources */,
@@ -287,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99AB8FE1D849FD400EC13BB /* NSObject+newListener.m in Sources */,
 				C99AB8F01D84780100EC13BB /* AppDelegate.m in Sources */,
 				C99AB8C31D8477DE00EC13BB /* main.m in Sources */,
 				C99AB8F41D84781500EC13BB /* PopController.m in Sources */,
